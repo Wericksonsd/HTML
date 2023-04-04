@@ -5,3 +5,48 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    display: grid;
+    padding: 15px;
+    min-height: 80px;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 25px auto 25px 25px;
+  background-color: blueviolet;
+}
+
+#it0{
+    width: 95vw;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+#it1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#it2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#it3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
